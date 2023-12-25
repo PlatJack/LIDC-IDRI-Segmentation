@@ -1,5 +1,5 @@
 import torch.nn.functional as F
-from unet_parts import *
+from .unet_parts import *
 
 class UNet_1(nn.Module):
     def __init__(self, n_channels, n_classes, bilinear = True):
